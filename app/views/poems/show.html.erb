@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @poem.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @poem.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_poem_path(@poem) %> |
+<%= link_to 'Back', poems_path %>
