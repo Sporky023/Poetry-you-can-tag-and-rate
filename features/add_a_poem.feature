@@ -10,7 +10,7 @@ Feature: Add A Poem
     Then I should see a form
     
     When I fill in "Your Poem" with "some poem text"
-    And I click "submit"
+    And I press "That's my poem"
     
     Then I should see "success"
     And I should see "some poem text"

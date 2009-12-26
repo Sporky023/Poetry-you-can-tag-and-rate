@@ -1,0 +1,109 @@
+Rendering poems/show.html.erb
+Rendering poems/new.html.erb
+Rendering poems/index.html.erb
+Rendering poems/edit.html.erb
+  [4;36;1mPoem Create (1.4ms)[0m   [0;1mINSERT INTO "poems" ("created_at", "title", "body", "updated_at") VALUES('2009-12-26 04:00:29', 'value for title', 'value for body', '2009-12-26 04:00:29')[0m
+
+
+Processing PoemsController#destroy (for 0.0.0.0 at 2009-12-25 23:00:29) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/poems
+Completed in 18ms (DB: 1) | 302 Found [http://test.host/poems/37]
+
+
+Processing PoemsController#destroy (for 0.0.0.0 at 2009-12-25 23:00:29) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/poems
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/poems/1]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"37", "poem"=>{"these"=>"params"}}
+Rendering template within layouts/poems
+Rendering poems/edit
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/37?poem%5Bthese%5D=params]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/poems
+Rendering poems/edit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/1]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/poems
+Rendering poems/edit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/1]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"37", "poem"=>{"these"=>"params"}}
+Rendering template within layouts/poems
+Rendering poems/edit
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/37?poem%5Bthese%5D=params]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/poems/1012
+Completed in 7ms (DB: 0) | 302 Found [http://test.host/poems/1]
+
+
+Processing PoemsController#update (for 0.0.0.0 at 2009-12-25 23:00:29) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/poems/1013
+Completed in 7ms (DB: 0) | 302 Found [http://test.host/poems/1]
+
+
+Processing PoemsController#create (for 0.0.0.0 at 2009-12-25 23:00:29) [POST]
+  Parameters: {"poem"=>{"these"=>"params"}}
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/poems?poem%5Bthese%5D=params]
+
+
+Processing PoemsController#create (for 0.0.0.0 at 2009-12-25 23:00:29) [POST]
+  Parameters: {"poem"=>{}}
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/poems?]
+
+
+Processing PoemsController#create (for 0.0.0.0 at 2009-12-25 23:00:29) [POST]
+  Parameters: {"poem"=>{"these"=>"params"}}
+Redirected to http://test.host/poems/1016
+Completed in 8ms (DB: 0) | 302 Found [http://test.host/poems?poem%5Bthese%5D=params]
+
+
+Processing PoemsController#create (for 0.0.0.0 at 2009-12-25 23:00:29) [POST]
+  Parameters: {"poem"=>{}}
+Redirected to http://test.host/poems/1017
+Completed in 7ms (DB: 0) | 302 Found [http://test.host/poems?]
+
+
+Processing PoemsController#edit (for 0.0.0.0 at 2009-12-25 23:00:29) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/poems
+Rendering poems/edit
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/37/edit]
+
+
+Processing PoemsController#new (for 0.0.0.0 at 2009-12-25 23:00:30) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/new]
+
+
+Processing PoemsController#show (for 0.0.0.0 at 2009-12-25 23:00:30) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/poems
+Rendering poems/show
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/poems/37]
+
+
+Processing PoemsController#index (for 0.0.0.0 at 2009-12-25 23:00:30) [GET]
+Rendering template within layouts/poems
+Rendering poems/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/poems]

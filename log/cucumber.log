@@ -3,3 +3,62 @@ REQUESTING PAGE: GET new_poem with {} and HTTP headers {}
 
 
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 22:51:54) [GET]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:00:40) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 84ms (View: 55, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:02:57) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 91ms (View: 63, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:03:20) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 85ms (View: 56, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:03:45) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 85ms (View: 56, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:04:28) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 87ms (View: 57, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: GET /poems/new with {} and HTTP headers {}
+
+
+Processing PoemsController#new (for 127.0.0.1 at 2009-12-25 23:04:43) [GET]
+Rendering template within layouts/poems
+Rendering poems/new
+Completed in 88ms (View: 60, DB: 0) | 200 OK [http://www.example.com/poems/new]
+REQUESTING PAGE: POST /poems with {"commit"=>"That's my poem", "poem"=>{"body"=>"some poem text", "title"=>""}} and HTTP headers {"HTTP_REFERER"=>"/poems/new"}
+
+
+Processing PoemsController#create (for 127.0.0.1 at 2009-12-25 23:04:43) [POST]
+  Parameters: {"commit"=>"That's my poem", "poem"=>{"title"=>"", "body"=>"some poem text"}}
+  [4;36;1mPoem Create (1.4ms)[0m   [0;1mINSERT INTO "poems" ("created_at", "title", "body", "updated_at") VALUES('2009-12-26 04:04:43', '', 'some poem text', '2009-12-26 04:04:43')[0m
+Redirected to http://www.example.com/poems/1
+Completed in 19ms (DB: 1) | 302 Found [http://www.example.com/poems]
+REQUESTING PAGE: GET http://www.example.com/poems/1 with {} and HTTP headers {"HTTP_REFERER"=>"/poems"}
+
+
+Processing PoemsController#show (for 127.0.0.1 at 2009-12-25 23:04:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPoem Load (1.4ms)[0m   [0mSELECT * FROM "poems" WHERE ("poems"."id" = 1) [0m
+Rendering template within layouts/poems
+Rendering poems/show
+Completed in 18ms (View: 11, DB: 1) | 200 OK [http://www.example.com/poems/1]
