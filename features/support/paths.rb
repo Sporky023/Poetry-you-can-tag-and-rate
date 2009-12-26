@@ -11,6 +11,9 @@ module NavigationHelpers
     when /the homepage/
       '/'
     
+    when /the (.*) page/
+      eval($1.gsub(' ', '_')+'_path')
+    
     # Add more mappings here.
     # Here is a more fancy example:
     #

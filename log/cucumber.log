@@ -1,0 +1,5 @@
+# Logfile created on Fri Dec 25 22:49:41 -0500 2009REQUESTING PAGE: GET new poem with {} and HTTP headers {}
+REQUESTING PAGE: GET new_poem with {} and HTTP headers {}
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 22:51:54) [GET]
